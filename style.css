@@ -31,10 +31,12 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .img
 {
-    width: 350px;
+    position: relative;
+    width: 100%;
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -56,19 +58,15 @@ p
 {
     .container
     {
-        width: 350px;
-    }
-    .img
-    {
-        width: 315px;
+        width: 320px;
     }
     h2 
     {
-        font-size: 23px;
+        font-size: 22px;
     }
     p 
     {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 500;
     }
 }
